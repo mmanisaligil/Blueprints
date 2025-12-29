@@ -22,7 +22,7 @@
         <mxCell id="iRFtF3EEoTPVuZG1MKNa-7" parent="1" style="text;whiteSpace=wrap;html=1;fontStyle=5" value="Consumer Electronic Product" vertex="1">
           <mxGeometry height="40" width="190" x="250" y="-10" as="geometry" />
         </mxCell>
-        <mxCell id="iRFtF3EEoTPVuZG1MKNa-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;- Product Name (multilingual)&lt;/div&gt;&lt;div&gt;- Customs duty (GTIP, Tax, Remark)&lt;/div&gt;&lt;div&gt;- Buy price&lt;/div&gt;&lt;div&gt;- Sell price&lt;/div&gt;&lt;div&gt;- Gross dimensions&lt;/div&gt;&lt;div&gt;- Net dimensions&lt;/div&gt;" vertex="1">
+        <mxCell id="iRFtF3EEoTPVuZG1MKNa-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;- Product Name (multilingual)&lt;/div&gt;&lt;div&gt;- Customs duty (GTIP, Tax, Remark)&lt;/div&gt;&lt;div&gt;- Buy price&lt;/div&gt;&lt;div&gt;- Sell price&lt;/div&gt;&lt;div&gt;- Gross dimensions&lt;/div&gt;&lt;div&gt;- Net dimensions&lt;/div&gt;&lt;div&gt;- Product images as .WEBP&amp;nbsp;&lt;/div&gt;" vertex="1">
           <mxGeometry height="65" width="240" x="250" y="125" as="geometry" />
         </mxCell>
         <mxCell id="iRFtF3EEoTPVuZG1MKNa-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;- Online URLs&lt;/div&gt;&lt;div&gt;- Supplier signed documents&lt;/div&gt;&lt;div&gt;- Manufacturer official technical papers&lt;/div&gt;&lt;div&gt;- Customs broker signed documents&lt;/div&gt;" vertex="1">
@@ -38,7 +38,7 @@
           <mxGeometry height="65" width="180" x="255" y="480" as="geometry" />
         </mxCell>
         <mxCell id="iRFtF3EEoTPVuZG1MKNa-17" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="80" width="60" x="190" y="660" as="geometry" />
+          <mxGeometry height="80" width="60" x="160" y="660" as="geometry" />
         </mxCell>
         <mxCell id="iRFtF3EEoTPVuZG1MKNa-14" parent="iRFtF3EEoTPVuZG1MKNa-17" style="triangle;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#CCCCCC);" value="" vertex="1">
           <mxGeometry height="55" width="41.25" x="9.370000000000005" as="geometry" />
@@ -53,10 +53,10 @@
           <mxGeometry height="90" width="125" x="245" y="650" as="geometry" />
         </mxCell>
         <mxCell id="iRFtF3EEoTPVuZG1MKNa-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;- Some .XLSX&lt;/div&gt;&lt;div&gt;- Some .PDF&lt;/div&gt;&lt;div&gt;- Some .TXT&lt;/div&gt;" vertex="1">
-          <mxGeometry height="65" width="100" x="100" y="660" as="geometry" />
+          <mxGeometry height="65" width="100" x="40" y="662.5" as="geometry" />
         </mxCell>
         <mxCell id="iRFtF3EEoTPVuZG1MKNa-23" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="80" width="60" x="370" y="662.5" as="geometry" />
+          <mxGeometry height="80" width="60" x="410" y="660" as="geometry" />
         </mxCell>
         <mxCell id="iRFtF3EEoTPVuZG1MKNa-24" parent="iRFtF3EEoTPVuZG1MKNa-23" style="triangle;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#CCCCCC);" value="" vertex="1">
           <mxGeometry height="55" width="41.25" x="9.370000000000005" as="geometry" />
@@ -64,14 +64,47 @@
         <mxCell id="iRFtF3EEoTPVuZG1MKNa-25" parent="iRFtF3EEoTPVuZG1MKNa-23" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="OUT" vertex="1">
           <mxGeometry height="30" width="60" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="iRFtF3EEoTPVuZG1MKNa-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="exact SKU code match&amp;nbsp;&lt;br&gt;EAN match&lt;br&gt;supplier code match&lt;br&gt;model family + capacity + region&amp;nbsp;&lt;br&gt;fuzzy name similarity" vertex="1">
-          <mxGeometry height="165" width="210" x="630" y="630" as="geometry" />
+        <mxCell id="TOmsGyz4eb4SSse_HGON-2" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="296.2499999999998" y="1000" as="sourcePoint" />
+            <mxPoint x="219.99999999999977" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TOmsGyz4eb4SSse_HGON-3" edge="1" parent="1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="344.9999999999998" y="1000" as="sourcePoint" />
+            <mxPoint x="419.9999999999998" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iRFtF3EEoTPVuZG1MKNa-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;u&gt;Backend Features&lt;/u&gt;&lt;/div&gt;&lt;div&gt;exact SKU code match&amp;nbsp;&lt;/div&gt;EAN match&lt;br&gt;supplier code match&lt;br&gt;model family + capacity + region&amp;nbsp;&lt;br&gt;&lt;div&gt;fuzzy name similarity&lt;/div&gt;&lt;div&gt;{{... what other features??}}&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="195" x="247.5" y="740" as="geometry" />
         </mxCell>
         <mxCell id="iRFtF3EEoTPVuZG1MKNa-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" value="--- PROBLEM---" vertex="1">
           <mxGeometry height="30" width="600" x="50" y="440" as="geometry" />
         </mxCell>
         <mxCell id="iRFtF3EEoTPVuZG1MKNa-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;- Canonical SKU ID&lt;/div&gt;&lt;div&gt;- List of alias&lt;/div&gt;&lt;div&gt;- Suspected Duplicates&lt;/div&gt;" vertex="1">
-          <mxGeometry height="65" width="210" x="435" y="660" as="geometry" />
+          <mxGeometry height="65" width="210" x="495" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="TOmsGyz4eb4SSse_HGON-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="- Offline Computing Only" vertex="1">
+          <mxGeometry height="30" width="160" x="120" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="TOmsGyz4eb4SSse_HGON-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;u&gt;Frontend Features:&lt;/u&gt;&lt;/div&gt;&lt;div&gt;- Drop down upload.&lt;/div&gt;&lt;div&gt;- Read-only access.&lt;/div&gt;&lt;div&gt;- User is guided to upload all: Online URLs, Supplier signed documents, Manufacturer official technical papers&amp;nbsp;Customs broker signed documents&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="195" x="25" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="TOmsGyz4eb4SSse_HGON-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;u&gt;Frontend Features:&lt;/u&gt;&lt;/div&gt;&lt;div&gt;-&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="195" x="510" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="TOmsGyz4eb4SSse_HGON-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Entity Resolution&lt;/div&gt;&lt;div&gt;(what SKU exactly is this)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="480" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="TOmsGyz4eb4SSse_HGON-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Field Extraction&lt;br&gt;(unique characteristics)" vertex="1">
+          <mxGeometry height="60" width="170" x="480" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="TOmsGyz4eb4SSse_HGON-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Normalization&lt;br&gt;(units, naming, wording)" vertex="1">
+          <mxGeometry height="60" width="170" x="480" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="TOmsGyz4eb4SSse_HGON-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="- Onboard + Fast Cloud Computing" vertex="1">
+          <mxGeometry height="30" width="220" x="340" y="1050" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
