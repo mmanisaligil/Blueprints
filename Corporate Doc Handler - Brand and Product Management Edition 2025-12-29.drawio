@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0" version="29.2.9">
   <diagram name="Page-1" id="oaQWGe9attiz4S-OwFji">
-    <mxGraphModel dx="1025" dy="2124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1264" dy="2840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="iRFtF3EEoTPVuZG1MKNa-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;align=center;fillColor=none;verticalAlign=top;" value="&lt;div&gt;--- PROBLEM---&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="380" x="50" y="430" as="geometry" />
+        </mxCell>
         <mxCell id="TOmsGyz4eb4SSse_HGON-72" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;b&gt;V1 (must ship):&lt;br&gt;&lt;br&gt;&lt;/b&gt;Evidence Store&lt;br&gt;ER Engine (rules + explanations)&lt;br&gt;Field Extraction (basic)&lt;br&gt;Normalization&lt;br&gt;Conflict Resolver&lt;br&gt;Master → ERP Export" vertex="1">
           <mxGeometry height="160" width="170" x="265" y="1930" as="geometry" />
         </mxCell>
@@ -35,10 +38,10 @@
           <mxGeometry height="65" width="240" x="250" y="227.5" as="geometry" />
         </mxCell>
         <mxCell id="iRFtF3EEoTPVuZG1MKNa-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" value="&lt;div&gt;REAL CHALLENGE&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="170" x="50" y="485" as="geometry" />
+          <mxGeometry height="60" width="170" x="60" y="475" as="geometry" />
         </mxCell>
         <mxCell id="iRFtF3EEoTPVuZG1MKNa-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;- Source-of-truth is fragmented&lt;/div&gt;&lt;div&gt;&lt;i&gt;(papers, PDFs, supplier sheets, web pages, inbox attachments).&lt;/i&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="65" width="180" x="255" y="480" as="geometry" />
+          <mxGeometry height="65" width="180" x="241.25" y="470" as="geometry" />
         </mxCell>
         <mxCell id="iRFtF3EEoTPVuZG1MKNa-17" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="80" width="60" x="160" y="660" as="geometry" />
@@ -69,9 +72,6 @@
         </mxCell>
         <mxCell id="iRFtF3EEoTPVuZG1MKNa-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;u&gt;Backend Features&lt;/u&gt;&lt;/div&gt;&lt;div&gt;exact SKU code match&amp;nbsp;&lt;/div&gt;EAN match&lt;br&gt;supplier code match&lt;br&gt;model family + capacity + region&amp;nbsp;&lt;br&gt;&lt;div&gt;fuzzy name similarity&lt;/div&gt;&lt;div&gt;{{... what other features??}}&lt;/div&gt;" vertex="1">
           <mxGeometry height="130" width="195" x="247.5" y="740" as="geometry" />
-        </mxCell>
-        <mxCell id="iRFtF3EEoTPVuZG1MKNa-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" value="--- PROBLEM---" vertex="1">
-          <mxGeometry height="30" width="600" x="50" y="440" as="geometry" />
         </mxCell>
         <mxCell id="TOmsGyz4eb4SSse_HGON-19" edge="1" parent="1" source="iRFtF3EEoTPVuZG1MKNa-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TOmsGyz4eb4SSse_HGON-18">
           <mxGeometry relative="1" as="geometry" />
@@ -211,6 +211,15 @@
         </mxCell>
         <mxCell id="TOmsGyz4eb4SSse_HGON-76" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" value="--- END OF BLUEPRINT ---" vertex="1">
           <mxGeometry height="30" width="570" x="70" y="2380" as="geometry" />
+        </mxCell>
+        <mxCell id="TOmsGyz4eb4SSse_HGON-77" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;align=center;fillColor=none;verticalAlign=top;" value="&lt;div&gt;--- SOLUTION ---&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="287.5" x="442.5" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="TOmsGyz4eb4SSse_HGON-78" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" value="Product &amp;amp; Brand Master Data Governance System" vertex="1">
+          <mxGeometry height="60" width="125" x="455" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="TOmsGyz4eb4SSse_HGON-79" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" value="Single Source of Truth with Auditability" vertex="1">
+          <mxGeometry height="60" width="125" x="590" y="475" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
