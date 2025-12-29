@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0" version="29.2.9">
   <diagram name="Page-1" id="oaQWGe9attiz4S-OwFji">
-    <mxGraphModel dx="1742" dy="2840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1025" dy="2124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="TOmsGyz4eb4SSse_HGON-72" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;b&gt;V1 (must ship):&lt;br&gt;&lt;br&gt;&lt;/b&gt;Evidence Store&lt;br&gt;ER Engine (rules + explanations)&lt;br&gt;Field Extraction (basic)&lt;br&gt;Normalization&lt;br&gt;Conflict Resolver&lt;br&gt;Master → ERP Export" vertex="1">
+          <mxGeometry height="160" width="170" x="265" y="1930" as="geometry" />
+        </mxCell>
         <mxCell id="iRFtF3EEoTPVuZG1MKNa-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Entity Resolution&lt;/div&gt;&lt;div&gt;(what SKU exactly is this)&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="170" x="50" y="40" as="geometry" />
         </mxCell>
@@ -73,8 +76,8 @@
         <mxCell id="TOmsGyz4eb4SSse_HGON-19" edge="1" parent="1" source="iRFtF3EEoTPVuZG1MKNa-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TOmsGyz4eb4SSse_HGON-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iRFtF3EEoTPVuZG1MKNa-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="-&amp;gt; canonical_sku_id&lt;br&gt;-&amp;gt; alias_set&lt;br&gt;-&amp;gt; match_score&lt;br&gt;-&amp;gt;match_explanation (super important for trust)&lt;br&gt;-&amp;gt;needs_review (boolean)" vertex="1">
-          <mxGeometry height="65" width="145" x="480" y="640" as="geometry" />
+        <mxCell id="iRFtF3EEoTPVuZG1MKNa-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="-&amp;gt; canonical_sku_id&lt;br&gt;-&amp;gt; alias_set&lt;br&gt;-&amp;gt; match_score&lt;br&gt;-&amp;gt;match_explanation (super important for trust)&lt;br&gt;-&amp;gt;needs_review (boolean)&lt;br&gt;-&amp;gt;&amp;nbsp;&lt;strong data-start=&quot;3424&quot; data-end=&quot;3443&quot;&gt;decision_source&lt;/strong&gt; = {rule_based | heuristic | human_confirmed}" vertex="1">
+          <mxGeometry height="65" width="210" x="470" y="638" as="geometry" />
         </mxCell>
         <mxCell id="TOmsGyz4eb4SSse_HGON-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;u&gt;Frontend Features:&lt;/u&gt;&lt;/div&gt;&lt;div&gt;- Drop down upload.&lt;/div&gt;&lt;div&gt;- Read-only access.&lt;/div&gt;&lt;div&gt;- User is guided to upload all: Online URLs, Supplier signed documents, Manufacturer official technical papers&amp;nbsp;Customs broker signed documents&lt;/div&gt;" vertex="1">
           <mxGeometry height="130" width="195" x="25" y="740" as="geometry" />
@@ -88,10 +91,7 @@
         <mxCell id="TOmsGyz4eb4SSse_HGON-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Normalization&lt;br&gt;(units, naming, wording)" vertex="1">
           <mxGeometry height="60" width="170" x="480" y="910" as="geometry" />
         </mxCell>
-        <mxCell id="TOmsGyz4eb4SSse_HGON-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" value="--- PRODUCT ---" vertex="1">
-          <mxGeometry height="30" width="425" x="700" y="-50" as="geometry" />
-        </mxCell>
-        <mxCell id="TOmsGyz4eb4SSse_HGON-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" value="&lt;div&gt;Master Sheet&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;can have blanks&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;can have notes&lt;br&gt;can have evidence links&lt;br&gt;can have status fields (“draft/verified/blocked”)&lt;/span&gt;" vertex="1">
+        <mxCell id="TOmsGyz4eb4SSse_HGON-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" value="&lt;div&gt;Master Sheet&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;can have blanks&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;can have notes&lt;br&gt;can have &lt;b&gt;evidence &lt;/b&gt;links&lt;br&gt;can have status fields (“draft/verified/blocked”)&lt;/span&gt;" vertex="1">
           <mxGeometry height="200" width="130" x="670" y="770" as="geometry" />
         </mxCell>
         <mxCell id="TOmsGyz4eb4SSse_HGON-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" value="&lt;div&gt;“ERP Export” Sheet (machine-facing)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;must be complete for required columns&lt;br&gt;must be normalized (mm/kg, decimals, currency)&lt;br&gt;must be “boring” and deterministic&lt;/span&gt;" vertex="1">
@@ -117,20 +117,17 @@
         <mxCell id="TOmsGyz4eb4SSse_HGON-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" value="--- WORK FLOW PIPELINE ---" vertex="1">
           <mxGeometry height="30" width="840" x="430" y="580" as="geometry" />
         </mxCell>
-        <mxCell id="TOmsGyz4eb4SSse_HGON-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Your best automation ideas (ranked by ROI)&lt;br&gt;Tier 1 (fastest wins, lowest risk)&lt;br&gt;&lt;br&gt;Validation engine inside Excel/Google Sheets&lt;br&gt;flags impossible values, missing fields, unit mismatches, duplicate keys&lt;br&gt;&lt;br&gt;Auto-unit conversion &amp;amp; formatting&lt;br&gt;no more manual kg/mm conversions&lt;br&gt;&lt;br&gt;AI “row completion assistant”&lt;br&gt;paste evidence → it proposes values + citations&lt;br&gt;Auto marketplace naming generator (TR + EN rules)&lt;br&gt;&lt;br&gt;Tier 2 (medium lift, big impact)&lt;br&gt;&lt;br&gt;Evidence library + searchable index&lt;br&gt;&lt;br&gt;a folder structure + naming conventions + a small index table&lt;br&gt;&lt;br&gt;Entity Resolution module&lt;br&gt;&lt;br&gt;canonical SKU ID + alias table + matching rules&lt;br&gt;&lt;br&gt;Change detection&lt;br&gt;&lt;br&gt;if supplier sheet changes, it tells you exactly what changed&lt;br&gt;&lt;br&gt;Tier 3 (high lift, enterprise-grade)&lt;br&gt;&lt;br&gt;Full pipeline app (local-first)&lt;br&gt;&lt;br&gt;upload docs → parse → review UI → export → audit log&lt;br&gt;&lt;br&gt;think “internal product” not “spreadsheet trick”" vertex="1">
-          <mxGeometry height="530" width="390" x="700" as="geometry" />
-        </mxCell>
         <mxCell id="TOmsGyz4eb4SSse_HGON-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Quality Assurance" vertex="1">
-          <mxGeometry height="60" width="170" x="480" y="1040" as="geometry" />
+          <mxGeometry height="40" width="260" x="480" y="1040" as="geometry" />
         </mxCell>
         <mxCell id="TOmsGyz4eb4SSse_HGON-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;p align=&quot;left&quot;&gt;evidence_id&lt;br&gt;&lt;br&gt;source_type (manufacturer PDF / broker doc / label photo / website)&lt;br&gt;&lt;br&gt;file_hash (to detect changes)&lt;br&gt;&lt;br&gt;capture_date&lt;br&gt;&lt;br&gt;issuer (EcoFlow, broker, reseller…)&lt;br&gt;&lt;br&gt;scope (which SKU(s) it applies to)&lt;br&gt;&lt;br&gt;page/section (or bounding box if image)&lt;br&gt;&lt;br&gt;reliability_score (manufacturer &amp;gt; reseller screenshot)&lt;/p&gt;" vertex="1">
-          <mxGeometry height="230" width="210" x="480" y="1130" as="geometry" />
+          <mxGeometry height="230" width="120" x="480" y="1200" as="geometry" />
         </mxCell>
         <mxCell id="TOmsGyz4eb4SSse_HGON-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Conflict Resolver" vertex="1">
-          <mxGeometry height="60" width="190" x="690" y="1040" as="geometry" />
+          <mxGeometry height="60" width="130" x="750" y="1040" as="geometry" />
         </mxCell>
         <mxCell id="TOmsGyz4eb4SSse_HGON-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Rules like:&lt;br&gt;&lt;br&gt;Prefer manufacturer signed doc over marketplace text&lt;br&gt;&lt;br&gt;Prefer newer revision if same issuer&lt;br&gt;&lt;br&gt;If conflict remains: mark status = blocked + “needs human decision”" vertex="1">
-          <mxGeometry height="230" width="210" x="690" y="1070" as="geometry" />
+          <mxGeometry height="230" width="130" x="760" y="1090" as="geometry" />
         </mxCell>
         <mxCell id="TOmsGyz4eb4SSse_HGON-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div align=&quot;left&quot;&gt;Strong keys (gold)&lt;br&gt;&lt;br&gt;EAN-13 + brand (watch out: sometimes packaging variants change EAN)&lt;br&gt;&lt;br&gt;Manufacturer part number / model code (EcoFlow has internal model codes; these are often more stable than names)&lt;br&gt;&lt;br&gt;ERP internal SKU (if consistent)&lt;/div&gt;" vertex="1">
           <mxGeometry height="200" width="190" x="900" y="1040" as="geometry" />
@@ -144,22 +141,22 @@
         <mxCell id="TOmsGyz4eb4SSse_HGON-41" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" value="Versioning" vertex="1">
           <mxGeometry height="60" width="60" x="844" y="641.5" as="geometry" />
         </mxCell>
-        <mxCell id="TOmsGyz4eb4SSse_HGON-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" value="&lt;div&gt;Versioning&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;master_version&lt;br&gt;export_version&lt;br&gt;last_exported_at&lt;br&gt;exported_by&lt;/span&gt;" vertex="1">
+        <mxCell id="TOmsGyz4eb4SSse_HGON-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" value="&lt;div&gt;Versioning&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;master_version&lt;br&gt;export_version&lt;br&gt;last_exported_at&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;exported_by&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;change_type = {data_fix | evidence_update | schema_change | pricing_only}&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="200" width="130" x="820" y="770" as="geometry" />
         </mxCell>
         <mxCell id="TOmsGyz4eb4SSse_HGON-47" edge="1" parent="1" source="iRFtF3EEoTPVuZG1MKNa-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="iRFtF3EEoTPVuZG1MKNa-15">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="455" y="1004" />
-              <mxPoint x="190" y="1004" />
+              <mxPoint x="455" y="970" />
+              <mxPoint x="190" y="970" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="TOmsGyz4eb4SSse_HGON-48" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Change Detection&lt;/div&gt;&lt;div&gt;(Automated Trigger)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="170" x="220" y="1040" as="geometry" />
+          <mxGeometry height="50" width="230" x="212.5" y="990" as="geometry" />
         </mxCell>
-        <mxCell id="TOmsGyz4eb4SSse_HGON-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="When a new doc is uploaded or an existing doc hash changes → re-run extraction for affected SKUs only&lt;br&gt;&lt;br&gt;Highlight diffs: old value → new value + evidence pointer&lt;br&gt;&lt;br&gt;Require human approval if the field is “sensitive” (tax/GTIP, weights, compliance)" vertex="1">
-          <mxGeometry height="230" width="210" x="220" y="1070" as="geometry" />
+        <mxCell id="TOmsGyz4eb4SSse_HGON-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="When a new doc is uploaded or an existing doc hash changes → re-run extraction for affected SKUs only&lt;br&gt;&lt;br&gt;Highlight diffs: old value → new value + evidence pointer&lt;br&gt;&lt;br&gt;&lt;div&gt;Require human approval if the field is “sensitive” (tax/GTIP, weights, compliance)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;If a doc changes → invalidate only the fields supported by that doc&lt;br&gt;&lt;br&gt;Preserve unrelated fields and approvals&lt;/div&gt;" vertex="1">
+          <mxGeometry height="230" width="237.5" x="212.5" y="1040" as="geometry" />
         </mxCell>
         <mxCell id="TOmsGyz4eb4SSse_HGON-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" value="--- FRONTEND FEATURES---" vertex="1">
           <mxGeometry height="30" width="790" x="480" y="727.5" as="geometry" />
@@ -168,19 +165,52 @@
           <mxGeometry height="30" width="790" x="479" y="990" as="geometry" />
         </mxCell>
         <mxCell id="TOmsGyz4eb4SSse_HGON-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;b&gt;Tier A: &lt;/b&gt;Offline-first for storage + audit + ERP export (Open Source free)" vertex="1">
-          <mxGeometry height="200" width="300" x="200" y="1470" as="geometry" />
+          <mxGeometry height="280" width="170" x="70" y="1550" as="geometry" />
         </mxCell>
         <mxCell id="TOmsGyz4eb4SSse_HGON-55" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" value="--- MONETIZABLE FEATURES---" vertex="1">
-          <mxGeometry height="30" width="1250" x="50" y="1410" as="geometry" />
+          <mxGeometry height="30" width="570" x="60" y="1510" as="geometry" />
         </mxCell>
         <mxCell id="TOmsGyz4eb4SSse_HGON-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="Offline-first for storage + audit + ERP export&lt;br&gt;&lt;div&gt;Cloud-optional: Heavy parsing / embeddings / OCR&amp;nbsp;&lt;/div&gt;&lt;div&gt;Online Active: Live crawling of store product images, removing background, crawling of competitor pricing, same brand different region pricing real time watchdog&lt;/div&gt;" vertex="1">
           <mxGeometry height="110" width="390" x="900" y="1260" as="geometry" />
         </mxCell>
         <mxCell id="TOmsGyz4eb4SSse_HGON-58" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Tier B: (&lt;/b&gt;Tier A) + Heavy parsing / embeddings / OCR&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;-&amp;gt; pay-as-you-use model.&amp;nbsp;&lt;br&gt;-&amp;gt; local Win 11 installation with GPU accelerated HW is necessary. Installation SW will be provided.&amp;nbsp;&amp;nbsp;&lt;br&gt;-&amp;gt; (or) iOS Store installation with AI accelerated HW is necessary.&amp;nbsp;" vertex="1">
-          <mxGeometry height="200" width="300" x="520" y="1470" as="geometry" />
+          <mxGeometry height="280" width="170" x="260" y="1550" as="geometry" />
         </mxCell>
         <mxCell id="TOmsGyz4eb4SSse_HGON-59" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;&lt;b&gt;Tier C:&amp;nbsp;&lt;/b&gt;(Tier B) +&amp;nbsp;Online Active: Live crawling of store product images, removing background, crawling of competitor pricing, same brand different region pricing real time watchdog&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;-&amp;gt; pay-as-you-use model.&amp;nbsp;&lt;br&gt;-&amp;gt; local Win 11 installation with GPU accelerated HW is necessary. Installation SW will be provided.&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;div&gt;-&amp;gt; (or) iOS Store installation with AI accelerated HW is necessary.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="200" width="300" x="840" y="1470" as="geometry" />
+          <mxGeometry height="280" width="170" x="450" y="1550" as="geometry" />
+        </mxCell>
+        <mxCell id="TOmsGyz4eb4SSse_HGON-62" edge="1" parent="1" source="TOmsGyz4eb4SSse_HGON-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="TOmsGyz4eb4SSse_HGON-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TOmsGyz4eb4SSse_HGON-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Evidence" vertex="1">
+          <mxGeometry height="40" width="110" x="480" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="TOmsGyz4eb4SSse_HGON-63" edge="1" parent="1" source="TOmsGyz4eb4SSse_HGON-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="TOmsGyz4eb4SSse_HGON-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TOmsGyz4eb4SSse_HGON-61" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Field Mapping" vertex="1">
+          <mxGeometry height="40" width="110" x="630" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="TOmsGyz4eb4SSse_HGON-64" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Evidence ID: PDF_123&lt;br&gt;&lt;br&gt;Field supported: gross_weight_kg&lt;br&gt;&lt;br&gt;Value extracted: 12.4&lt;br&gt;&lt;br&gt;Confidence: 0.92" vertex="1">
+          <mxGeometry height="230" width="120" x="630" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="TOmsGyz4eb4SSse_HGON-66" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="309" y="959" as="geometry" />
+        </mxCell>
+        <mxCell id="TOmsGyz4eb4SSse_HGON-69" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="New*&lt;div&gt;- Some .XLSX&lt;/div&gt;&lt;div&gt;- Some .PDF&lt;/div&gt;&lt;div&gt;- Some .TXT&lt;/div&gt;" vertex="1">
+          <mxGeometry height="65" width="100" x="277.5" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="TOmsGyz4eb4SSse_HGON-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" value="--- ROADMAP ---" vertex="1">
+          <mxGeometry height="30" width="570" x="60" y="1870" as="geometry" />
+        </mxCell>
+        <mxCell id="TOmsGyz4eb4SSse_HGON-74" edge="1" parent="1" source="TOmsGyz4eb4SSse_HGON-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="TOmsGyz4eb4SSse_HGON-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TOmsGyz4eb4SSse_HGON-73" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;b&gt;V2 (optional power):&lt;br&gt;&lt;br&gt;&lt;/b&gt;embeddings&lt;br&gt;OCR&lt;br&gt;crawling&lt;br&gt;pricing watchdog" vertex="1">
+          <mxGeometry height="140" width="170" x="265" y="2190" as="geometry" />
+        </mxCell>
+        <mxCell id="TOmsGyz4eb4SSse_HGON-76" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" value="--- END OF BLUEPRINT ---" vertex="1">
+          <mxGeometry height="30" width="570" x="70" y="2380" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
