@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0" version="29.2.9">
   <diagram name="Page-1" id="oaQWGe9attiz4S-OwFji">
-    <mxGraphModel dx="1264" dy="2840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1238" dy="2842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -210,7 +210,7 @@
           <mxGeometry height="140" width="170" x="265" y="2190" as="geometry" />
         </mxCell>
         <mxCell id="TOmsGyz4eb4SSse_HGON-76" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" value="--- END OF BLUEPRINT ---" vertex="1">
-          <mxGeometry height="30" width="570" x="70" y="2380" as="geometry" />
+          <mxGeometry height="30" width="570" x="65" y="2600" as="geometry" />
         </mxCell>
         <mxCell id="TOmsGyz4eb4SSse_HGON-77" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;align=center;fillColor=none;verticalAlign=top;" value="&lt;div&gt;--- SOLUTION ---&lt;/div&gt;" vertex="1">
           <mxGeometry height="130" width="287.5" x="442.5" y="430" as="geometry" />
@@ -220,6 +220,12 @@
         </mxCell>
         <mxCell id="TOmsGyz4eb4SSse_HGON-79" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" value="Single Source of Truth with Auditability" vertex="1">
           <mxGeometry height="60" width="125" x="590" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="TOmsGyz4eb4SSse_HGON-80" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" value="--- WHO PAYS FOR IT?---" vertex="1">
+          <mxGeometry height="30" width="570" x="60" y="2370" as="geometry" />
+        </mxCell>
+        <mxCell id="TOmsGyz4eb4SSse_HGON-81" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;b&gt;This is portable across:&lt;br&gt;&lt;br&gt;&lt;/b&gt;distributors&lt;br&gt;manufacturers&lt;br&gt;importers&lt;br&gt;marketplaces&lt;br&gt;regulated industries&lt;br&gt;&lt;br&gt;Anywhere you have: SKUs,&lt;br&gt;documents, compliance, ERP" vertex="1">
+          <mxGeometry height="160" width="170" x="265" y="2420" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
